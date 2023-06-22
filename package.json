@@ -23,6 +23,7 @@
     "@iconify-json/logos": "^1.1.33",
     "@iconify-json/material-symbols": "^1.1.48",
     "@iconify-json/simple-icons": "^1.1.57",
+    "@iconify-json/twemoji": "^1.1.11",
     "playwright-chromium": "^1.35.1"
   },
   "slidev": {
