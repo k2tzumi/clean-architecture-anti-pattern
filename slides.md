@@ -35,7 +35,7 @@ fonts:
 # クリーンアーキテクチャ　アンチパターン
 
 June 22, 2023.  
-v0.0.2
+v0.0.3
 
 <div class="pt-12">
   <span @click="$slidev.nav.next" class="px-2 py-1 rounded cursor-pointer" hover="bg-white bg-opacity-10">
