@@ -1,5 +1,8 @@
 # Changelog
 
+## [v0.0.5](https://github.com/k2tzumi/clean-architecture-anti-pattern/compare/v0.0.4...v0.0.5) - 2023-06-26
+- Append ogp by @k2tzumi in https://github.com/k2tzumi/clean-architecture-anti-pattern/pull/9
+
 ## [v0.0.4](https://github.com/k2tzumi/clean-architecture-anti-pattern/compare/v0.0.3...v0.0.4) - 2023-06-22
 - Fix tyoo by @k2tzumi in https://github.com/k2tzumi/clean-architecture-anti-pattern/pull/7
 
