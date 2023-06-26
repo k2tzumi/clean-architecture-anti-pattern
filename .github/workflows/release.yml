@@ -38,6 +38,13 @@ jobs:
         run: |
           cat <<EOF > index.html
           <head>
+          <meta property="og:url" content="https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}" />
+          <meta property="og:type" content="website" />
+          <meta property="og:title" content="クリーンアーキテクチャでのアンチパターン" />
+          <meta property="og:description" content="実際に遭遇したよく陥りがちな避けるべき実装パターンを例に上げて「何が駄目なのか？」「どういった設計にしていけばよかったのか？」をまとめ" />
+          <meta property="og:site_name" content="${{ github.repository_owner }}.github.io" />
+          <meta property="og:image" content="https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/thumbnail/001.png" />
+          <link rel="canonical" href="https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}" />
           </head>
           <body>
             <!-- Google tag (gtag.js) -->
@@ -77,6 +84,17 @@ jobs:
               },
               name: 'slides-export.pdf',
               data: fileContent,
+            });
+            const noteFilePath = path.join(path.resolve(process.env.GITHUB_WORKSPACE), 'slides-export-notes.pdf');
+            const noteFileContent = fs.readFileSync(noteFilePath);
+            await github.rest.repos.uploadReleaseAsset({
+              url: release.data.upload_url,
+              headers: {
+                'content-type': 'application/octet-stream',
+                'content-length': noteFileContent.length,
+              },
+              name: 'slides-export-notes.pdf',
+              data: noteFileContent,
             });
       - name: Setup Pages
         uses: actions/configure-pages@v3
