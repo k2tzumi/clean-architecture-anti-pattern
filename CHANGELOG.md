@@ -1,5 +1,8 @@
 # Changelog
 
+## [v0.0.6](https://github.com/k2tzumi/clean-architecture-anti-pattern/compare/v0.0.5...v0.0.6) - 2023-07-16
+- Create QR Code component by @k2tzumi in https://github.com/k2tzumi/clean-architecture-anti-pattern/pull/11
+
 ## [v0.0.5](https://github.com/k2tzumi/clean-architecture-anti-pattern/compare/v0.0.4...v0.0.5) - 2023-06-26
 - Append ogp by @k2tzumi in https://github.com/k2tzumi/clean-architecture-anti-pattern/pull/9
 
