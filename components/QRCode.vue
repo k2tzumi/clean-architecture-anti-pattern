@@ -27,6 +27,7 @@ export interface Props {
 const props = withDefaults(defineProps<Props>(), {
   width: 200,
   height: 200,
+  color: "000000",
 });
 
 defineComponent({
