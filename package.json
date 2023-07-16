@@ -14,6 +14,7 @@
     "@slidev/cli": "^0.42.5",
     "@slidev/theme-default": "*",
     "@slidev/theme-seriph": "*",
+    "qrcode-vue3": "^1.6.8",
     "slidev-addon-rabbit": "^0.1.0"
   },
   "devDependencies": {
@@ -22,11 +23,11 @@
     "@iconify-json/fxemoji": "^1.1.4",
     "@iconify-json/ic": "^1.1.13",
     "@iconify-json/logos": "^1.1.33",
-    "@iconify-json/material-symbols": "^1.1.49",
+    "@iconify-json/material-symbols": "^1.1.51",
     "@iconify-json/noto": "^1.1.11",
-    "@iconify-json/simple-icons": "^1.1.58",
+    "@iconify-json/simple-icons": "^1.1.60",
     "@iconify-json/twemoji": "^1.1.11",
-    "playwright-chromium": "^1.35.1"
+    "playwright-chromium": "^1.36.1"
   },
   "slidev": {
     "addons": [
