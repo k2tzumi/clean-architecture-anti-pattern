@@ -1,5 +1,8 @@
 # Changelog
 
+## [v0.0.8](https://github.com/k2tzumi/clean-architecture-anti-pattern/compare/v0.0.7...v0.0.8) - 2023-07-17
+- Relative paths considering the path on the github page by @k2tzumi in https://github.com/k2tzumi/clean-architecture-anti-pattern/pull/15
+
 ## [v0.0.7](https://github.com/k2tzumi/clean-architecture-anti-pattern/compare/v0.0.6...v0.0.7) - 2023-07-17
 - Refine ogp tilte and description by @k2tzumi in https://github.com/k2tzumi/clean-architecture-anti-pattern/pull/13
 
