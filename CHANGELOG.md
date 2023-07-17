@@ -1,5 +1,8 @@
 # Changelog
 
+## [v0.0.7](https://github.com/k2tzumi/clean-architecture-anti-pattern/compare/v0.0.6...v0.0.7) - 2023-07-17
+- Refine ogp tilte and description by @k2tzumi in https://github.com/k2tzumi/clean-architecture-anti-pattern/pull/13
+
 ## [v0.0.6](https://github.com/k2tzumi/clean-architecture-anti-pattern/compare/v0.0.5...v0.0.6) - 2023-07-16
 - Create QR Code component by @k2tzumi in https://github.com/k2tzumi/clean-architecture-anti-pattern/pull/11
 
