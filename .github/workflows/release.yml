@@ -36,12 +36,14 @@ jobs:
           ga_tracking_id: ${{ secrets.GA_TRACKING_ID }}
         if: ${{ env.ga_tracking_id != '' }}
         run: |
+          TITLE=$(awk '/^---$/ {f=1;next} f && /^title:/ {print $2;exit}' slides.md)
+          DESCRIPTION=$(awk '/^info:/ {f=1;next} f && /^$/ {exit} f {print}' slides.md)
           cat <<EOF > index.html
           <head>
           <meta property="og:url" content="https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}" />
           <meta property="og:type" content="website" />
-          <meta property="og:title" content="クリーンアーキテクチャでのアンチパターン" />
-          <meta property="og:description" content="実際に遭遇したよく陥りがちな避けるべき実装パターンを例に上げて「何が駄目なのか？」「どういった設計にしていけばよかったのか？」をまとめ" />
+          <meta property="og:title" content="${TITLE}" />
+          <meta property="og:description" content="${DESCRIPTION}" />
           <meta property="og:site_name" content="${{ github.repository_owner }}.github.io" />
           <meta property="og:image" content="https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/thumbnail/001.png" />
           <link rel="canonical" href="https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}" />
