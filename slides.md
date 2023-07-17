@@ -13,7 +13,7 @@ lineNumbers: false
 title: クリーンアーキテクチャでのアンチパターン
 # some information about the slides, markdown enabled
 info: |
-実際に遭遇したよく陥りがちな避けるべき実装パターンを例に上げて「何が駄目なのか？」「どういった設計にしていけばよかったのか？」をまとめ
+ 実際に遭遇したよく陥りがちな避けるべき実装パターンを例に上げて「何が駄目なのか？」「どういった設計にしていけばよかったのか？」をまとめ
 
 # persist drawings in exports and build
 drawings:
