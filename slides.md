@@ -34,7 +34,7 @@ fonts:
 # クリーンアーキテクチャでのアンチパターン
 
 [PHPカンファレンス福岡全然野菜](https://pepabo.connpass.com/event/280682/)　June 22, 2023.  
-v0.0.6
+v0.0.7
 
 <div class="pt-12">
   <span @click="$slidev.nav.next" class="px-2 py-1 rounded cursor-pointer" hover="bg-white bg-opacity-10">
