@@ -10,12 +10,11 @@ class: 'text-center'
 highlighter: shiki
 # show line numbers in code blocks
 lineNumbers: false
+title: クリーンアーキテクチャでのアンチパターン
 # some information about the slides, markdown enabled
 info: |
-  ## Slidev Starter Template
-  Presentation slides for developers.
+実際に遭遇したよく陥りがちな避けるべき実装パターンを例に上げて「何が駄目なのか？」「どういった設計にしていけばよかったのか？」をまとめ
 
-  Learn more at [Sli.dev](https://sli.dev)
 # persist drawings in exports and build
 drawings:
   persist: false
