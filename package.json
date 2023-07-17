@@ -1,6 +1,6 @@
 {
   "name": "clean-architecture-anti-pattern",
-  "version": "v0.0.6",
+  "version": "v0.0.7",
   "engines": {
     "node": ">=14.0.0"
   },
