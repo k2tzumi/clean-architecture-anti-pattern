@@ -1,5 +1,8 @@
 # Changelog
 
+## [v0.0.10](https://github.com/k2tzumi/clean-architecture-anti-pattern/compare/v0.0.9...v0.0.10) - 2023-07-23
+- Bump up version by @k2tzumi in https://github.com/k2tzumi/clean-architecture-anti-pattern/pull/19
+
 ## [v0.0.9](https://github.com/k2tzumi/clean-architecture-anti-pattern/compare/v0.0.8...v0.0.9) - 2023-07-23
 - Use-add-on by @k2tzumi in https://github.com/k2tzumi/clean-architecture-anti-pattern/pull/17
 
