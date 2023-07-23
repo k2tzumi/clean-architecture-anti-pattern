@@ -11,7 +11,7 @@
     "export-notes": "slidev export-notes"
   },
   "dependencies": {
-    "@katzumi/slidev-addon-qrcode": "^0.0.11",
+    "@katzumi/slidev-addon-qrcode": "^0.0.12",
     "@slidev/cli": "^0.42.5",
     "@slidev/theme-default": "*",
     "@slidev/theme-seriph": "*",
@@ -26,7 +26,7 @@
     "@iconify-json/logos": "^1.1.33",
     "@iconify-json/material-symbols": "^1.1.51",
     "@iconify-json/noto": "^1.1.11",
-    "@iconify-json/simple-icons": "^1.1.60",
+    "@iconify-json/simple-icons": "^1.1.61",
     "@iconify-json/twemoji": "^1.1.11",
     "playwright-chromium": "^1.36.1"
   },
