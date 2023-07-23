@@ -29,6 +29,8 @@ fonts:
   serif: 'Noto Serif JP'
   # for code blocks, inline code, etc.
   mono: 'Noto Sans Mono'
+addons:
+  - "@katzumi/slidev-addon-qrcode"
 ---
 
 # クリーンアーキテクチャでのアンチパターン
